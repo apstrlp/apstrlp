@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.10)  13 MAY 2017 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.10)  13 MAY 2017 21:02
 entering extended mode
 **./Exam_GL_S2_2017.tex
 (Exam_GL_S2_2017.tex
@@ -1218,42 +1218,42 @@ Package pdftex.def Info: logo.jpg used on input line 101.
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <6.49994> not available
 (Font)              size <6> substituted on input line 101.
 
-LaTeX Font Info:    Try loading font information for U+mvs on input line 119.
-(C:\Users\SAMSUNG\AppData\Roaming\MiKTeX\2.9\tex\latex\marvosym\umvs.fd)
+<pert17.jpg, id=15, 484.05844pt x 289.08pt>
+File: pert17.jpg Graphic file (type jpg)
+ <use pert17.jpg>
+Package pdftex.def Info: pert17.jpg used on input line 133.
+(pdftex.def)             Requested size: 280.91637pt x 167.77237pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hfill' on input line 119.
+<RACI.png, id=16, 187.245pt x 156.366pt>
+File: RACI.png Graphic file (type png)
+ <use RACI.png>
+Package pdftex.def Info: RACI.png used on input line 138.
+(pdftex.def)             Requested size: 184.05043pt x 153.70526pt.
 
+<paradox1.png, id=18, 298.86656pt x 188.95593pt>
+File: paradox1.png Graphic file (type png)
+ <use paradox1.png>
+Package pdftex.def Info: paradox1.png used on input line 171.
+(pdftex.def)             Requested size: 203.42067pt x 128.6123pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\char' on input line 119.
+<sprint1.png, id=19, 225.84375pt x 155.07938pt>
+File: sprint1.png Graphic file (type png)
+ <use sprint1.png>
+Package pdftex.def Info: sprint1.png used on input line 181.
+(pdftex.def)             Requested size: 180.67523pt x 124.06364pt.
 
+<sprint2.png, id=20, 225.84375pt x 155.07938pt>
+File: sprint2.png Graphic file (type png)
+ <use sprint2.png>
+Package pdftex.def Info: sprint2.png used on input line 185.
+(pdftex.def)             Requested size: 180.67523pt x 124.06364pt.
 
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 140--141
-[][] 
- []
-
-
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 153--154
-[][] 
- []
-
-
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 166--167
-[][] 
- []
-
-
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 182--183
-[][] 
- []
-
-
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 196--197
-[][] 
- []
-
-[1
+<git.png, id=21, 380.92313pt x 446.41782pt>
+File: git.png Graphic file (type png)
+ <use git.png>
+Package pdftex.def Info: git.png used on input line 192.
+(pdftex.def)             Requested size: 256.69804pt x 300.8422pt.
+ [1
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1265,125 +1265,133 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{C:/Users/SAMSUNG/AppData/Local/MiKTeX/2.9/pdftex/confi
-g/pdftex.map} <./logo.jpg>]
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 211--212
+g/pdftex.map} <./logo.jpg> <./pert17.jpg> <./RACI.png> <./paradox1.png> <./spri
+nt1.png> <./sprint2.png>]
+LaTeX Font Info:    Try loading font information for U+mvs on input line 203.
+
+(C:\Users\SAMSUNG\AppData\Roaming\MiKTeX\2.9\tex\latex\marvosym\umvs.fd)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hfill' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\char' on input line 203.
+
+
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 224--225
 [][] 
  []
 
 
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 225--226
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 237--238
 [][] 
  []
 
 
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 239--240
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 250--251
+[][] 
+ []
+
+[2 <./git.png>]
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 266--267
 [][] 
  []
 
 
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 253--254
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 280--281
 [][] 
  []
 
 
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 267--268
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 295--296
 [][] 
  []
 
 
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 281--282
-[][] 
- []
-
-[2]
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 296--297
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 309--310
 [][] 
  []
 
 
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 311--312
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 323--324
 [][] 
  []
 
 
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 327--328
-[][] 
- []
-
-
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 341--342
-[][] 
- []
-
-
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 355--356
-[][] 
- []
-
-
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 366--367
-[][] 
- []
-
-
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 377--378
-[][] 
- []
-
-
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 388--389
-[][] 
- []
-
-
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 399--400
-[][] 
- []
-
-
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 410--411
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 337--338
 [][] 
  []
 
 [3]
-Overfull \hbox (3.15672pt too wide) in paragraph at lines 421--422
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 351--352
 [][] 
  []
 
-<pert17.jpg, id=126, 484.05844pt x 289.08pt>
-File: pert17.jpg Graphic file (type jpg)
- <use pert17.jpg>
-Package pdftex.def Info: pert17.jpg used on input line 443.
-(pdftex.def)             Requested size: 387.47112pt x 231.40987pt.
 
-<RACI.png, id=127, 317.331pt x 118.917pt>
-File: RACI.png Graphic file (type png)
- <use RACI.png>
-Package pdftex.def Info: RACI.png used on input line 459.
-(pdftex.def)             Requested size: 317.3302pt x 118.9167pt.
- [4 <./pert17.jpg>]
-<paradox.png, id=146, 347.79938pt x 249.18094pt>
-File: paradox.png Graphic file (type png)
- <use paradox.png>
-Package pdftex.def Info: paradox.png used on input line 469.
-(pdftex.def)             Requested size: 347.79852pt x 249.18031pt.
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 365--366
+[][] 
+ []
 
-<sprint1.png, id=147, 225.84375pt x 155.07938pt>
-File: sprint1.png Graphic file (type png)
- <use sprint1.png>
-Package pdftex.def Info: sprint1.png used on input line 475.
-(pdftex.def)             Requested size: 180.67523pt x 124.06364pt.
 
-<sprint2.png, id=149, 225.84375pt x 155.07938pt>
-File: sprint2.png Graphic file (type png)
- <use sprint2.png>
-Package pdftex.def Info: sprint2.png used on input line 479.
-(pdftex.def)             Requested size: 180.67523pt x 124.06364pt.
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 380--381
+[][] 
+ []
+
+
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 395--396
+[][] 
+ []
+
+
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 411--412
+[][] 
+ []
+
+
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 425--426
+[][] 
+ []
+
+
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 439--440
+[][] 
+ []
+
+[4]
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 450--451
+[][] 
+ []
+
+
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 461--462
+[][] 
+ []
+
+
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 472--473
+[][] 
+ []
+
+
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 483--484
+[][] 
+ []
+
+
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 494--495
+[][] 
+ []
+
+
+Overfull \hbox (3.15672pt too wide) in paragraph at lines 505--506
+[][] 
+ []
+
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Exam_GL_S2_2017.maf file.
 \openout4 = `Exam_GL_S2_2017.maf'.
-
 
 
 Package minitoc(hints) Warning: W0081
@@ -1402,43 +1410,40 @@ Package minitoc(hints) Warning: W0024
 
 
 AED: lastpage setting LastPage
-[5 <./RACI.png> <./paradox.png> <./sprint1.png> <./sprint2.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 493.
-
-(Exam_GL_S2_2017.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 493.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 493.
+[5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 521.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 521.
+ (Exam_GL_S2_2017.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 521.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 521.
 Package rerunfilecheck Info: File `Exam_GL_S2_2017.out' has not changed.
-(rerunfilecheck)             Checksum: DCC8CC23C810116C6A8791193398B893;142.
+(rerunfilecheck)             Checksum: BD23043EC9CC8190918CB9A4EB2302A6;142.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.49994pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 521.
  ) 
 Here is how much of TeX's memory you used:
- 24874 strings out of 493328
- 422718 string characters out of 3139118
+ 24875 strings out of 493328
+ 422736 string characters out of 3139118
  551405 words of memory out of 3000000
- 27573 multiletter control sequences out of 15000+200000
- 19004 words of font info for 62 fonts, out of 3000000 for 9000
+ 27576 multiletter control sequences out of 15000+200000
+ 18221 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,11n,56p,677b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 61i,11n,56p,677b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\SAMSUNG\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecbx1095.pk> <C:\Users\SAMSUNG\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecrm1095.pk> <C:\Users\SAMSUNG\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\SAMSUNG\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\SAMSUNG\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\SAMSUN
-G\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk><C:/U
-sers/SAMSUNG/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/marvosym/marvosym.pf
-b><C:/Users/SAMSUNG/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/wasy/wasy10.p
-fb>
-Output written on Exam_GL_S2_2017.pdf (5 pages, 383742 bytes).
+0\ecrm1095.pk> <C:\Users\SAMSUNG\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecbx1440.pk> <C:\Users\SAMSUNG\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\SAMSUNG\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\SAMSUNG\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk><C:/Users/SAMSUNG
+/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/marvosym/marvosym.pfb><C:/Users/
+SAMSUNG/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/wasy/wasy10.pfb>
+Output written on Exam_GL_S2_2017.pdf (5 pages, 408111 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
- 116 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

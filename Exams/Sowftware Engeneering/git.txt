@@ -1,0 +1,76 @@
+Dev 1
+git clone https:/github/examenGL/testGit
+git commit -am "ajouter hello dev1"
+git push
+git pull
+git branch dev1
+git checkout dev1
+git commit -am "remplacer toto par loulou"
+git checkout master
+git push
+
+Dev 2
+git clone https:/github/examenGL/testGit
+git commit -am "ajouter Hi dev2"
+git pull
+git push
+git branch dev2
+git checkout dev2
+git commit -am "remplacer loulou par tata"
+git pull 
+
+
+
+git clone https:/github/examenGL/testGit
+
+git commit -am "saisir toto"
+
+git push
+
+git pull
+
+git branch dev1
+
+git checkout dev1
+
+git commit -am "saisir toto@git.com"
+
+git checkout master
+
+git push
+
+git clone https:/github/examenGL/testGit
+
+	          git commit -am "saisir toto"
+
+                                                              git push
+
+                                                               git pull
+
+                                                  git branch dev1
+
+                                              git checkout dev1
+
+         git commit -am "saisir toto@git.com"
+
+                                         git checkout master
+
+                                                                git push
+
+
+git clone https:/github/examenGL/testGit
+git commit -am "saisir Loulou"
+
+git pull
+
+git branch dev2
+
+git checkout dev2
+
+git commit -am "saisir loulou@git.com"
+
+git checkout master
+
+git push
+
+
