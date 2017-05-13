@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.10)  13 MAY 2017 00:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.10)  13 MAY 2017 11:26
 entering extended mode
 **./Exam_GL_S2_2017.tex
 (Exam_GL_S2_2017.tex
@@ -1401,6 +1401,9 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the Exam_GL_S2_2017.log file.
 
 
+Package lastpage Warning: Rerun to get the references right on input line 493.
+
+
 AED: lastpage setting LastPage
 [5 <./RACI.png> <./paradox.png> <./sprint1.png> <./sprint2.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
@@ -1416,13 +1419,16 @@ Package rerunfilecheck Info: File `Exam_GL_S2_2017.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.49994pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
  ) 
 Here is how much of TeX's memory you used:
- 24876 strings out of 493328
- 422741 string characters out of 3139118
- 551403 words of memory out of 3000000
- 27575 multiletter control sequences out of 15000+200000
+ 24874 strings out of 493328
+ 422718 string characters out of 3139118
+ 549754 words of memory out of 3000000
+ 27573 multiletter control sequences out of 15000+200000
  19004 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,11n,56p,677b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1436,9 +1442,9 @@ G\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk><C:/U
 sers/SAMSUNG/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/marvosym/marvosym.pf
 b><C:/Users/SAMSUNG/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/wasy/wasy10.p
 fb>
-Output written on Exam_GL_S2_2017.pdf (5 pages, 383988 bytes).
+Output written on Exam_GL_S2_2017.pdf (5 pages, 383738 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
+ 384 PDF objects out of 1000 (max. 8388607)
  116 named destinations out of 1000 (max. 500000)
  59 words of extra memory for PDF output out of 10000 (max. 10000000)
 
