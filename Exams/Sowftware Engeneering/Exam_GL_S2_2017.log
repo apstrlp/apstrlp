@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.10)  14 MAY 2017 02:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.10)  14 MAY 2017 11:14
 entering extended mode
 **./Exam_GL_S2_2017.tex
 (Exam_GL_S2_2017.tex
@@ -1287,13 +1287,13 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{C:/Users/SAMSUNG/AppData/Local/MiKTeX/2.9/pdftex/confi
 g/pdftex.map} <./logo.jpg> <./pert17.jpg> <./RACI.png> <./paradox1.png> <./spri
-nt1.png> <./sprint2.png>] <git.png, id=47, 576.65437pt x 836.3747pt>
-File: git.png Graphic file (type png)
+nt1.png> <./sprint2.png>] <git-f.png, id=47, 569.87906pt x 828.09375pt>
+File: git-f.png Graphic file (type png)
 
-<use git.png>
-Package pdftex.def Info: git.png used on input line 202.
-(pdftex.def)             Requested size: 445.58919pt x 646.30768pt.
- [2 <./git.png>]
+<use git-f.png>
+Package pdftex.def Info: git-f.png used on input line 202.
+(pdftex.def)             Requested size: 445.58919pt x 647.48999pt.
+ [2 <./git-f.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\hfill' on input line 214.
@@ -1343,8 +1343,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 425.
  ) 
 Here is how much of TeX's memory you used:
  24867 strings out of 493328
- 423185 string characters out of 3139118
- 551404 words of memory out of 3000000
+ 423195 string characters out of 3139118
+ 551405 words of memory out of 3000000
  27595 multiletter control sequences out of 15000+200000
  19777 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1360,7 +1360,7 @@ Users\SAMSUNG\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1
 000.pk><C:/Users/SAMSUNG/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/marvosym
 /marvosym.pfb><C:/Users/SAMSUNG/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/w
 asy/wasy10.pfb>
-Output written on Exam_GL_S2_2017.pdf (4 pages, 551820 bytes).
+Output written on Exam_GL_S2_2017.pdf (4 pages, 549986 bytes).
 PDF statistics:
  405 PDF objects out of 1000 (max. 8388607)
  79 named destinations out of 1000 (max. 500000)
