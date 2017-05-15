@@ -1,0 +1,642 @@
+\documentclass[a4paper,11pt]{article} 
+\usepackage{listings}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amssymb}					
+\usepackage{marvosym}
+\usepackage[latin1]{inputenc}    
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{pstricks}
+\usepackage{colortbl}
+\usepackage{fancybox}
+\usepackage{enumerate}
+\usepackage{tablists}
+\usepackage[dvips]{epsfig}
+\usepackage{makeidx}
+\usepackage{amsmath,amssymb}
+\usepackage{stmaryrd}
+\usepackage{xspace}
+\usepackage{float}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{boxedminipage}
+\usepackage{listings}
+\usepackage{aurical}
+\usepackage{slashbox}
+\usepackage{threeparttable}
+\usepackage{fancyhdr}
+\usepackage{algorithm,algorithmic}
+\usepackage{pstricks,pst-tree}
+\pagestyle{empty}               % On ne numérote pas les pages
+\usepackage{vmargin}            % redéfinir les marges
+\setmarginsrb{2cm}{2cm}{2cm}{2cm}{0cm}{0cm}{0cm}{0cm}
+\newcommand{\pascal}{\textsf{Pascal}\xspace}
+\usepackage{pifont}
+\usepackage[french]{minitoc}
+
+%#############################################
+\catcode`\«=\active
+\catcode`\»=\active
+\def«{\og\ignorespaces}
+\def»{{\fg}}
+	
+\usepackage{color}
+\usepackage{lastpage}
+\usepackage{wasysym}
+
+\usepackage{tikz-qtree}
+
+\pagestyle{fancy}
+%\renewcommand{\sectionmark}[1]{%
+%\markboth{TD \thesection }{}}
+\renewcommand{\headrulewidth}{0pt}
+%\renewcommand\footrulewidth{1pt}
+%\fancyfoot[R]{\small Page \thepage}
+\fancyfoot[c]{}
+%\fancyfoot[L]{\Letter\  \texttt{\url{Mohamed.Messabihi@gmail.com}}}
+\fancyhead[L]{}
+\fancyhead[R]{}
+%\fancyhead[L]{\sectionname}
+%\pagestyle{fancy}
+
+\usepackage{ifsym}
+
+\setcounter{tocdepth}{1}
+
+\renewcommand \thesection  {}
+
+
+%###################
+\begin{document}
+\dosecttoc
+
+\hspace{-.8cm}
+\parbox{\textwidth}{ \small
+
+\rule{\textwidth}{1.5pt}
+\begin{minipage}{.43\textwidth}
+\begin{flushleft}
+\textbf{Auteur} : Mohamed Messabihi\\
+  \textbf{Matière} : Management de Projet Informatique \\
+ \textbf{Date}  14 Mai 2017 \\
+\textbf{Durée}  1h30 \\
+\end{flushleft}
+\end{minipage}
+ \hfill
+\begin{minipage}{.08\textwidth}
+\begin{center}\includegraphics[width=1cm]{logo.jpg}\end{center}
+\end{minipage}
+\hfill
+\begin{minipage}{.43\textwidth}
+\begin{flushright}
+Université Abou Bakr Belkaïd - Tlemcen  \\
+Faculté des Sciences   \\
+1\up{ère} Master GL \\
+\end{flushright}
+\end{minipage}
+\rule {\textwidth}{1.5pt}
+
+}
+
+
+%###################
+\pagenumbering{arabic} \setcounter{page}{1}
+   \begin{center}
+%\vspace{0.5cm}
+\section*{Examen Final}%\vspace{-0.5cm}
+%\rule{.9\textwidth}{.5pt}\\
+%\footnotesize{\emph{ Aucun document n'est autorisé.\\
+% Tout appareil électronique doit être éteint.\\
+% \underline{2 points} seront réservés à la clarté de la rédaction %et   la propreté de la copie.\\
+% Justifiez et commentez  vos solutions.}}\\
+% \rule{.9\textwidth}{.5pt}
+\end{center}
+%\vspace{1cm}
+
+
+
+\section{Gestion de projet (12 pts)}
+
+%http://lipn.univ-paris13.fr/~gerard/docs/exos/gl-exos3.pdf
+
+%http://tibo.lelore.free.fr/IRIS/2Annee/UML/Exos/TD6.pdf
+
+%http://fdigallo.online.fr/cours/genie_logiciel.pdf
+%http://m.emery.mgt.free.fr/Page2.htm
+%http://perso.mines-albi.fr/~schwartz/Multi_Options/Planif_projet/Plan_Projet.pdf
+
+Suite à votre recrutement  à l'entreprise SOGESI, le chef d'entreprise fait appel à vos compétences pour gérer un projet d'étude et de mise en place d'un ERP pour un de ses clients. Après une étude détaillée du périmètre du projet ainsi que l'ensemble des tâches à faire,  vous avez obtenu le diagramme PERT  et la matrice RACI suivants :
+
+\begin{minipage}{.58\textwidth}
+\includegraphics[width=1\textwidth]{pert17} 
+\end{minipage}
+\hfill
+\begin{minipage}{.38\textwidth}
+\begin{center}
+\includegraphics[width=1\textwidth]{RACI.png} 
+\end{center}
+\end{minipage}
+
+%\paragraph{Travail à faire :}
+\begin{enumerate}
+\item  Complétez les dates au plus tôt  et au plus tard de chaque tâche ainsi que le délai minimum de réalisation de ce projet.
+
+%\fbox{\parbox[c][1cm]{17cm}{\hspace{-1cm}\includegraphics[width=.8\textwidth]{vide} }}
+%\begin{center}
+%\includegraphics[width=.8\textwidth]{pert0.png} 
+%\end{center}
+\begin{minipage}{.5\textwidth}
+\item Identifiez les tâches critiques ainsi que le chemin critique.
+
+%\fbox{\parbox[c][2cm]{\textwidth}{\hspace{-1cm}\includegraphics[width=.\textwidth]{vide} }}
+
+%\item Suite au recrutement de  deux autres stagiaires, la tâche de   Dessin mécanique a été réduite à seulement 2 mois et la tâche Réalisation carte mère de deux à un mois. Indiquez les répercussions éventuelles sur le déroulement du projet. 
+%\item Quelle(s) est (sont), à votre avis, la (les) tâche(s) qu'il faudrait réduire en priorité le délai pour diminuer encore le délai final du projet.
+%\item Dans le dossier de planification, on trouve la matrice RACI suivante : 
+
+
+
+\item Que signifie le R, A, C et le I dans la matrice ci-dessus ?
+
+\item Constateriez-vous des anomalies dans cette matrice ? si oui, lesquelles ? et comment les corrigez-vous ?
+
+
+\item Commentez le graphique ci-contre et décrire les solutions  que vous envisageriez  pour en tenir compte.
+\end{minipage} 
+ \hfill
+\begin{minipage}{.42\textwidth}
+\begin{center}
+\includegraphics[width=1\textwidth]{paradox1.png} 
+\end{center}
+\end{minipage} 
+
+
+\item Après quelques mois, l'entreprise décide d'adopter une méthode agile (Scrum) pour le développement en interne. Vous êtes le ScrumMaster, commentez le burndown chart du premier sprint et celui du  second et expliquer comment procéderiez vous pour le troisième sprint ? %%https://refinem.com/essential-agile-processes-part-6-sprint-burndown-chart/
+
+
+
+\begin{minipage}{.45\textwidth}
+ \includegraphics[scale=.8]{sprint1.png} 
+ \end{minipage} 
+ \hfill
+ \begin{minipage}{.45\textwidth}
+ \includegraphics[scale=.8]{sprint2.png} 
+ \end{minipage} 
+ 
+ 
+ \item Quel est le ...
+ 
+ \begin{minipage}{.53\textwidth}
+ \includegraphics[width = \textwidth]{git.png} 
+ \end{minipage} 
+ \hfill
+ \begin{minipage}{.45\textwidth}
+ 
+ \end{minipage}  
+
+\end{enumerate}
+
+
+\newpage
+
+\section{Questions à choix multiple \hfill 12 pts,   \Clocklogo 40'}
+%http://www.actionprojet.com/pageF11.htm
+Pour chacune des questions suivantes, cochez la ou les  réponse(s) correspondante(s).
+
+ \begin{enumerate}
+ 
+
+
+\item Parmi les qualificatifs suivants, cochez celui qui est incompatible avec la notion de projet :
+
+\begin{enumerate}[a. $\Box$ ]
+\item original 
+\item autonome
+\item permanent   %%%
+\item novateur
+\item complexe 
+\item évolutif
+ 
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+\item Au sens du management de projet, on appelle ouvrage :
+
+
+\begin{enumerate}[a. $\Box$ ]
+\item l'ensemble des actions réalisées au cours du projet 
+\item la méthode utilisée pour réaliser le projet 
+\item un élément matériel constitutif du projet 
+\item l'objet physique ou intellectuel du projet %%%
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item Dans la réalisation d'un projet, le maître d'ouvrage est celui qui :
+\begin{enumerate}[a. $\Box$ ]
+\item définit le cahier des charges d'ouvrage %%%
+\item est responsable de la coordination des intervenants 
+\item  assure les études de conception 
+\item dirige le chantier de construction de l'ouvrage
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item L'étude de marché ne comporte pas nécessairement tous les postes suivants. Lesquels ? 
+
+\begin{enumerate}[a. $\Box$ ]
+\item  besoins exprimés ou potentiels 
+\item  existence d'une concurrence établie ou possible 
+\item  notoriété et capacité de l'entreprise 
+\item  définition des moyens en mettre en oeuvre pour l'investissement  %%%
+\item  contraintes administratives éventuelles
+\item  restrictions d'acceptabilité locale
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item La fonction « chef de projet » est une charge : 
+
+\begin{enumerate}[a. $\Box$ ]
+\item  caractéristique du maître d'ouvrage 
+\item caractéristique du maître d'oeuvre 
+\item caractéristique d'un ensemble d'outils 
+\item nécessaire chez tous les intervenants
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item  Durant l'exécution d'un projet, le chef de projet peut éventuellement se décharger de certaines tâches : 
+
+
+\begin{enumerate}[a. $\Box$ ]
+\item définition des objectifs à court terme de l'équipe 
+\item définition des solutions techniques
+\item  analyse des dérives de coûts 
+\item  analyse des dérives de délai 
+\item  analyse des dérives de qualité
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item  Une politique de qualité comporte toujours trois volets : 
+
+
+\begin{enumerate}[a. $\Box$ ]
+\item technique, commercial, administratif 
+\item conception, fabrication, maintenance 
+\item planification, contrôle, amélioration
+\item étude de marché, innovation, commercial  
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item  L'équipe de projet est généralement plus motivée quand le chef de projet : 
+
+\begin{enumerate}[a. $\Box$ ]
+\item l'informe essentiellement des succès et des nouvelles favorables 
+\item  lui souligne les points nécessaires pour redresser une situation se détériore 
+\item  lui fait part de tous les événements qui arrivent 
+\item  sélectionne les événements significatifs, favorables ou non
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item Lorsqu'il constitue son équipe, le chef de projet doit : 
+
+
+\begin{enumerate}[a. $\Box$ ]
+\item définir les postes, et les attributions aux personnes mises à sa disposition 
+\item  établir son organigramme en fonction des effectifs dont il dispose
+\item  définir les postes, et accepté dans son équipe que des personnes qui y correspondent
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item La première étape de la planification consiste à : 
+
+\begin{enumerate}[a. $\Box$ ]
+\item  définir les jalons du projet 
+\item  établir l'organigramme des tâches
+\item  tracer la logique d'enchaînement des tâches
+\item  choisir les systèmes outils de contrôle
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item Les jalons (en anglais : milestones) :
+
+\begin{enumerate}[a. $\Box$ ]
+\item sont importantes pour la communication et doivent de ce fait figurer sur le
+GANTT.
+\item ne font pas partie des préoccupations principales du chef de projet.
+\item concernent les ressources affectées au projet.
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item Qu'est-ce qu'un risque?
+
+\begin{enumerate}[a. $\Box$ ]
+\item   un événement pas complétement prévisible.   %%
+\item  un événement complétement imprévisible.
+\item  un événement du climat.
+\item  quelque chose de dangereux.
+\item  un événement qui peut contredire les plans. %%%
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item Une charge de 60 mois/homme signifie ?
+
+\begin{enumerate}[a. $\Box$ ]
+\item 5 personnes / 2 ans
+\item 10 personnes / 12 mois
+\item 120 personnes / 2 semaines %%%
+\item Aucune de ces réponses
+
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item La réalisation d'un projet commence par la planification. La première étape de
+
+
+\begin{enumerate}[a. $\Box$ ]
+\item la planification consiste à :
+\item Établir le diagramme de Gantt
+\item Définir les jalons du projet
+\item Établir l'organigramme des tâches %%%
+\item Tracer la logique d'enchaînement de tâches
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item Pour quels objectifs l'estimation d'un budget n'est pas importante : 
+\begin{enumerate}[a. $\Box$ ]
+\item Demander des financements
+\item Faire l'étude de marché
+\item Rendre des comptes
+\item \'Evaluer la faisabilité du projet
+\item Suivre l'avancement du projet
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item Une personne dans l?équipe perturbe les autres. Vous êtes ScrumMaster, comment réagissez-vous ? %http://www.aubryconseil.com/post/Quizz-la-question-3-sur-le-ScrumMaster
+
+\begin{enumerate}[a. $\Box$ ]
+\item Vous la virez de l'équipe, la majorité est d?accord
+\item Vous ne faites rien, il n?y a pas de chef avec Scrum
+\item Vous faites un rapport à la direction
+\item Vous l?invitez à prendre un café en dehors de l'entreprise. %%
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item 
+
+\begin{enumerate}[a. $\Box$ ]
+\item 
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item 
+
+\begin{enumerate}[a. $\Box$ ]
+\item 
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item 
+
+\begin{enumerate}[a. $\Box$ ]
+\item 
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item 
+
+\begin{enumerate}[a. $\Box$ ]
+\item 
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item 
+
+\begin{enumerate}[a. $\Box$ ]
+\item 
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+\item 
+
+\begin{enumerate}[a. $\Box$ ]
+\item 
+
+\end{enumerate}
+
+\vspace{2mm} %----------------------------------------------------------------------
+\rule{.95\textwidth}{1pt}
+
+
+
+
+
+\end{enumerate}
+
+
+
+
+
+\begin{flushright}
+\og Bon courage  \fg{} 
+\end{flushright}
+
+\end{document}
+
+\endinput
+
+\vfill
+
+\subsection{Mise en seine (7 pts)}
+\begin{enumerate}
+ \begin{minipage}{.7\textwidth}
+\item Vous êtes chargé du développement d'un module  permettant, entre autres, d'évaluer des expressions arithmétiques. Une expression peut être une une variable, un constante ou une combinaison de ces dernières avec des opérateurs (*, $\backslash$, +, -) comme indiqué sur la figure ci-contre. Toutes les expressions  peuvent être évaluées ou transformées.
+\end{minipage} \hfill
+\begin{minipage}{.4\textwidth} \vspace{.2cm}
+\includegraphics[width=.5\textwidth]{exp.png} 
+%\vspace{-.7cm}
+\end{minipage}
+{\textbf{Question : } Quel design pattern adopteriez-vous pour concevoir le modèle des expressions arithmétiques. Proposez un diagramme de classe basé sur ce pattern  montrant la structures d'une expression.} 
+
+\vfill
+\item Vous êtes en charge de la conception et la mise en \oe uvre d'un système d'information d'une grande compagnie aérienne. La préoccupation principale des dirigeants de cette entreprise est de faciliter non seulement les échanges de données, mais également l'accès aux applications au sein des entreprises et surtout entre les entreprises et ce de manière automatique. 
+
+\textbf{Question : } Quelle(s) technologie(s) vous semble(nt) prometteuse(s) pour atteindre ces objectifs? Pourquoi ? 
+\vfill
+ \item Ayant un esprit agile, vous avez adopté depuis quelques temps la méthode Scrum dans vos projets de développement. Depuis le 01/02/2014 vous travaillez en tant que PO (Product Owner) sur un projet de développement d'un logiciel de gestion électronique de documents au sein de l'OPGI. D'après votre planification, ce projet devrait être achevé le 30/09/2014. Aujourd'hui (25/05/2014) votre supérieur, sous la pression d'un  nouveau ministre récemment nommé, vous demande de livrer le projet au plus tard le 30/06/2014.
+
+\textbf{Question : } Comment répondez-vous à cette requête ?
+\end{enumerate}
+
+
+\vfill
+
+\begin{enumerate}
+%\item  \textbf{Phase 1 : Définition des fonctionnalités}
+%\begin{itemize}
+\item 
+%\textbf{A} 
+\emph{Recueil du besoin}. Durée \textbf{20} jours. Tâches
+antérieures : aucune
+\item %\textbf{B} 
+\emph{Rédaction du cahier de charge}. Durée \textbf{30} jours. Tâches antérieures : aucune
+\item %\textbf{C} 
+\emph{Spécification fonctionnelle}. Durée \textbf{3} jours. Tâches antérieures : B
+%\end{itemize}
+%\item  \textbf{Phase 2 : Conception et architecture}
+%\begin{itemize}
+\item %\textbf{D}
+ \emph{Conception du modèle de données}. Durée \textbf{10} jours. Tâches antérieures : A et C
+\item %\textbf{E}
+ \emph{Conception du site}. Durée \textbf{2} jours. Tâches antérieures : A
+%\end{itemize}
+ %\item  \textbf{Phase 3 : Création du Site Web}
+%\begin{itemize}
+\item %\textbf{F}
+ \emph{Définition et implémentation de la base de données}. Durée \textbf{25} jours. Tâches antérieures : E
+\item %\textbf{G}
+ \emph{Implémentation des pages web}. Durée \textbf{1} jour. Tâches antérieures : F
+%\item H Création des pages d'annonces. Durée 6 semaines. Tâches antérieures : D et F
+\item %\textbf{H} 
+\emph{Mise en \oe uvre du processus applicatif}. Durée \textbf{1} jour. Tâches antérieures : G et D
+%\end{itemize}
+%\item \textbf{ Phase 4 : Test}
+%\begin{itemize}
+\item %\textbf{I}
+\emph{Test de la base de données}. Durée \textbf{1} jour. Tâches antérieures : H
+%\item K Test du paiement. Durée 4 semaines. Tâches antérieures : I
+\item %\textbf{J}
+ \emph{Test du site}. Durée \textbf{2} jours. Tâches antérieures : I
+%\end{itemize}
+\end{enumerate}
+
+\subsection{Diagramme d'activité}
+Donnez le diagramme d'activités correspondant au cas d'utilisation suivant :
+
+\begin{itemize}
+\item \textbf{Identification du cas d'utilisation : }
+\begin{description}
+\item [Nom :] commander un article 
+\end{description}
+\item \textbf{Fonctionnement du cas d'utilisation :} 
+\begin{enumerate}[ ]
+\item \textbf{Pré-condition :}
+\begin{itemize} 
+\item Le client possède une carte qu'il a achetée au magasin ; 
+\item Le distributeur est alimenté en dvd. 
+\end{itemize}
+\item \textbf{Scénario :} 
+
+\begin{itemize}
+\item \textbf{Scénario nominal : }
+
+\begin{enumerate}[a)]
+\item  Le responsable de boutique vérifie la disponibilité de l'article ; 
+\item  Le système de gestion de stock locale cherche les instances de l'article ; 
+\item  Le responsable de boutique fait payer l'article ; 
+\item  Le responsable de boutique facture le paiement et envoie la facture au système de la 
+direction financière ; 
+\item  La direction financière archive la facture. 
+\end{enumerate}
+\item \textbf{ scénarios alternatifs : }
+\begin{enumerate}[ ]
+\item [b-1)] Aucune instance de l'article n'est disponible : 
+\item [b-1a)] Le système crée et archive une réservation et commande l'article au système 
+ de gestion de stocks globale ; 
+\item [b-1b)] Le système de gestion de stock globale enregistre la commande ; 
+\item  [b-1c)] Le système de gestion de stock globale envoie l'article ; 
+\item  [b-1d)] Le système de gestion de locale enregistre l'article [exception 1 : article non  retiré]. 
+\item [c-1)] Si l'achat de l'article est t fait dans le cadre d'une réservation, rendre la réservation 
+ inactive. 
+\end{enumerate}
+\item \textbf{Scénario d'exception :} 
+\begin{enumerate}[]
+\item \textbf{[exception 1]} Si l'article n'est pas retiré avant une semaine, la réservation est annulée. 
+\end{enumerate}
+
+\end{itemize}
+\end{enumerate}
+\end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------------------------------------------
+\newpage

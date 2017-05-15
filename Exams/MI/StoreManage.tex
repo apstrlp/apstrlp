@@ -1,0 +1,65 @@
+%\section{Gestion d'un magasin \hfill 14 pts.  \Clocklogo 1h10  }
+
+On souhaite écrire un programme qui permet de gérer un magasin vendant des produits électroménagers . Ce programme permet, entre autres, de saisir les produits, de créer des commandes et d'établir  des  factures.
+  
+
+
+Un  produit est défini par  :
+\begin{itemize}
+\item \textsf{reference :} la référence du produit (par exemple 12985);
+\item \textsf{designation :} la désignation du produit (par exemple Micro-onde);
+\item \textsf{prixUnitaire : } le prix unitaire du produit (par exemple 9850 DA) ;
+\end{itemize}
+
+\begin{enumerate}
+\vspace{.2cm}
+\item Définir la structure \textbf{\textsf{Produit}}. \hfill  \textbf{2 pts} 
+
+
+\vspace{.25cm}
+\item Un catalogue contient le nombre de produits et l'ensemble des produits existants dans le magasin. Proposez une structure pour le Type  \textbf{\textsf{Catalogue}}. \hfill \textbf{1 pt}
+
+\vspace{.25cm}
+\item \'Ecrire les deux fonctions \textbf{\textsf{saisir\_Produit}} et     \textbf{\textsf{saisir\_Catalogue}}. \hfill \textbf{2 pt} 
+
+\vspace{.25cm}
+\item  \'Ecrire une fonction \textbf{\textsf{chercher\_Reference}} qui prend en entrée une référence d'un produit et un catalogue et qui retourne l'indice du produit correspondant dans le catalogue. Si le produit n'existe pas dans le catalogue, la fonction renvoie -1. \hfill \textbf{2 pts} 
+
+\vspace{.25cm}
+\item Une commande contient plusieurs lignes de commande. Chaque ligne de commande contient une référence d'un produit ainsi que sa quantité. Une commande ne doit pas contenir plus de  20 lignes. Définir la structure \textbf{\textsf{Commande}}.  \hfill 
+\textbf{2pts}
+  
+  \vspace{.25cm}
+\item   \'Ecrire une fonction \textbf{\textsf{saisir\_Commande}} qui prend en entrée une commande et  un Catalogue et qui demande à l'utilisateur de saisir les références des produits ainsi que leurs quantités.\hfill \textbf{2pts} 
+
+ \underline{\textbf{\Pointinghand
+  Remarque.}} 
+\begin{itemize}
+\item La fonction ne doit accepter que les références des produits existants dans le catalogue.
+\item La fonction ne doit accepter que des quantités  strictement supérieurs à 0.
+
+\end{itemize}
+
+\vspace{.25cm}
+\item Écrire une fonction \textbf{\textsf{afficher\_Facture}} qui prend en entrée  une commande et un catalogue et affiche la facture à l'écran. Pour chaque référence de produit commandé, la fonction  affiche sa référence, sa désignation,   son prix unitaire, sa quantité dans la commande  et le prix total de la ligne. A la fin de la facture, la fonction affiche le montant total à payer. \hfill \textbf{2 pts}
+
+
+\vspace{.25cm}
+L'affichage de cette fonction doit ressembler celui montré ci-dessous  :
+
+\begin{verbatim}
+------------------------------- Facture ----------------------------------
+Reference	    Designation      Prix Unitaire       Quantite        Total      
+45665         Téléviseur       66500DA             3             199500DA 
+12985         Micro-onde       9850DA              2              19700DA
+87653         Réfrigérateur    86000DA             1              86000DA 
+86509         Cafetière        6500DA              4              26000DA
+-------------------------------------------------------------------------- 
+                                                 Montant Total = 332200DA
+\end{verbatim}
+
+\vspace{.5cm}
+
+\item \'Ecrire une fonction \textbf{\textsf{main}} qui permet de saisir un catalogue,  créer une commande puis d'afficher sa facture. \hfill\textbf{1pt}
+
+\end{enumerate}
