@@ -2,3 +2,7 @@
 *.pdf
 *.log
 *.gz
+*.maf
+*.mtc
+*.matc0
+*.out
