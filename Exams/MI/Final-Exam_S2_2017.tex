@@ -15,15 +15,69 @@ Les appareils portables doivent être  éteints et posés sur le bureau du surveill
 \rule{.7\textwidth}{.5pt}
 \end{center}
  
-\section{ \hfill . pts.  \Clocklogo .' }
-%\input{Errors}
+\section{Affichage \hfill . pts.  \Clocklogo .' }
+\input{Supprimer-Occ}
 \section{Allers-retours \hfill 8 pts.  \Clocklogo 30'}
 \input{Allers-retours}
 %\input{Affichage}
-\section{... \hfill . pts.  \Clocklogo .'}
-\input{StoreManage}
+\section{Rectangles \hfill 12 pts.  \Clocklogo 1h}
+
+On souhaite programmer un éditeur graphique qui permet de dessiner des rectangles sur un plan muni d'un repère cartésien.
+
+Un rectangle est défini par :
+\begin{itemize}
+\item un \textsf{point} sur le plan qui représente son coin supérieur gauche ;
+\item une \textsf{longueur} ;
+\item une \textsf{largeur} ;
+\item et une \textsf{couleur} qui peut être soir blanche, noire ou grise.
+\end{itemize} 
+
+ Un point \textsf{P}  est défini par un couple de réels :
+ \begin{itemize}
+ \item  \textsf{x} appelé l'abscisse de \textsf{P} ;
+\item   \textsf{y} appelé l'ordonnée de \textsf{P}.
+ \end{itemize}
+
+
+\begin{enumerate}
+%\vspace{.2cm}
+\item Définir la structure {\textsf{Rectangle}}.   \textbf{3 pts} 
+
+
+%\vspace{.25cm}
+%\item Un {\textsf{Graph}} contient un ensemble de Rectangles. Déclarer un \textbf{\textsf{Graph}}. \hfill \textbf{1 pt}
+
+%\vspace{.25cm}
+\item \'Ecrire une fonction {\textsf{saisir\_Rectangle}}. \textbf{2 pts} 
+
+%\vspace{.25cm}
+\item  \'Ecrire une fonction {\textsf{deplacer}} qui prend en entrée un rectangle r et un point $p\prime$ et puis elle déplace le rectangle r vers le point $p\prime$.  \textbf{1 pt} 
+
+
+
+%\vspace{.25cm}
+\item  \'Ecrire une fonction {\textsf{zoomer}} qui prend en entrée un rectangle et un coefficient de zoom. La fonction maintien le coin supérieur gauche du rectangle  puis elle agrandie ou elle rapetisse les dimensions du rectangle en fonction du coefficient du zoom.     \textbf{1 pt} 
+
+%\vspace{.25cm}
+\item  \'Ecrire une fonction {\textsf{symétrique}} qui prend en entrée
+ un rectangle r et  retourne le rectangle symétrique 	 r$\prime$  du r par par rapport son coin supérieur gauche.   \textbf{1 pt}   
+
+%\vspace{.25cm}
+\item  \'Ecrire une fonction {\textsf{centre}} qui prend en entrée un rectangle r et retourne le point qui se trouve à son plein milieu.  \textbf{1 pt} 
+
+
+
+%\vspace{.25cm}
+\item  \'Ecrire une fonction {\textsf{inclut}} qui prend en entrée deux  rectangles r1 et r2   et renvoie 1 si r2 est inclus dans r1, 0 sinon. \textbf{2 pts} 
+
+
+%\item \'Ecrire une fonction \textbf{\textsf{main}} qui permet de saisir un catalogue,  créer une commande puis d'afficher sa facture. \hfill\textbf{1pt}
+
+\end{enumerate}
+
+%\input{Rectangles}
 
  
-\vfill \hfill \emph{Bon courage  \fg}
+\vfill \hfill \emph{ \og Bon courage  \fg}
 \end{document}
 \endinput
