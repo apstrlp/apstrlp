@@ -15,12 +15,12 @@ Les appareils portables doivent être  éteints et posés sur le bureau du surveill
 \rule{.7\textwidth}{.5pt}
 \end{center}
  
-\section{Affichage \hfill . pts.  \Clocklogo .' }
+\section{Affichage \hfill 2 pts.  \Clocklogo 15' }
 \input{Supprimer-Occ}
-\section{Allers-retours \hfill 8 pts.  \Clocklogo 30'}
+\section{Allers-retours \hfill 7 pts.  \Clocklogo 30'}
 \input{Allers-retours}
 %\input{Affichage}
-\section{Rectangles \hfill 12 pts.  \Clocklogo 1h}
+\section{Rectangles \hfill 12 pts.  \Clocklogo 45'}
 
 On souhaite programmer un éditeur graphique qui permet de dessiner des rectangles sur un plan muni d'un repère cartésien.
 
@@ -29,7 +29,7 @@ Un rectangle est défini par :
 \item un \textsf{point} sur le plan qui représente son coin supérieur gauche ;
 \item une \textsf{longueur} ;
 \item une \textsf{largeur} ;
-\item et une \textsf{couleur} qui peut être soir blanche, noire ou grise.
+\item et une \textsf{couleur} qui peut être  blanche, noire ou grise.
 \end{itemize} 
 
  Un point \textsf{P}  est défini par un couple de réels :
@@ -51,31 +51,37 @@ Un rectangle est défini par :
 \item \'Ecrire une fonction {\textsf{saisir\_Rectangle}}. \textbf{2 pts} 
 
 %\vspace{.25cm}
-\item  \'Ecrire une fonction {\textsf{deplacer}} qui prend en entrée un rectangle r et un point $p\prime$ et puis elle déplace le rectangle r vers le point $p\prime$.  \textbf{1 pt} 
+\item  \'Ecrire une fonction {\textsf{deplacer}} qui prend en entrée un rectangle R et un point P$\prime$ et puis elle déplace le rectangle R vers le point P$\prime$. Par exemple, le rectangle R1 prendra la place du rectangle R2 s'il est  déplacé  au point P'    \textbf{1 pt} 
 
 
 
 %\vspace{.25cm}
-\item  \'Ecrire une fonction {\textsf{zoomer}} qui prend en entrée un rectangle et un coefficient de zoom. La fonction maintien le coin supérieur gauche du rectangle  puis elle agrandie ou elle rapetisse les dimensions du rectangle en fonction du coefficient du zoom.     \textbf{1 pt} 
+\item  \'Ecrire une fonction {\textsf{zoomer}} qui prend en entrée un rectangle et un coefficient de zoom. La fonction maintient le coin supérieur gauche du rectangle  puis elle agrandie ou elle rapetisse les dimensions du rectangle en fonction du coefficient du zoom.    Par exemple, le rectangle R3 devient égale au rectangle R4 s'il est zoomé  avec un coefficient égale à 2 et inversement R4 devient égale à R3 s'est zoomé  avec un coefficient égale à 0.5. \textbf{1 pt} 
 
 %\vspace{.25cm}
 \item  \'Ecrire une fonction {\textsf{symétrique}} qui prend en entrée
- un rectangle r et  retourne le rectangle symétrique 	 r$\prime$  du r par par rapport son coin supérieur gauche.   \textbf{1 pt}   
+ un rectangle R et  retourne le rectangle symétrique 	 R$\prime$  du R par par rapport son coin supérieur gauche. Par exemple, le rectangle R5 est le résultat de l'appel de cette fonction avec le rectangle R4 comme paramètre.  \textbf{1 pt}   
 
 %\vspace{.25cm}
-\item  \'Ecrire une fonction {\textsf{centre}} qui prend en entrée un rectangle r et retourne le point qui se trouve à son plein milieu.  \textbf{1 pt} 
+\item  \'Ecrire une fonction {\textsf{centre}} qui prend en entrée un rectangle R et retourne le point qui se trouve à son plein milieu.  \textbf{1 pt} 
 
 
 
 %\vspace{.25cm}
-\item  \'Ecrire une fonction {\textsf{inclut}} qui prend en entrée deux  rectangles r1 et r2   et renvoie 1 si r2 est inclus dans r1, 0 sinon. \textbf{2 pts} 
+\item  \'Ecrire une fonction {\textsf{inclut}} qui prend en entrée deux  rectangles R1 et R2   et renvoie 1 si R2 est inclus dans R1, 0 sinon. Par exemple R6 est inclus dans R7 mais R8 ne l'est pas.\textbf{2 pts} 
 
 
 %\item \'Ecrire une fonction \textbf{\textsf{main}} qui permet de saisir un catalogue,  créer une commande puis d'afficher sa facture. \hfill\textbf{1pt}
+\begin{center}
+\includegraphics[width = .95\textwidth]{Rectangls.png} 
+\end{center}
 
+\item \'Ecrire une fonction \textbf{\textsf{main}} qui permet de saisir le rectangle R1 de la figure ci-dessus, de le déplacer au point P$\prime()$,  créer une commande puis d'afficher sa facture. \hfill\textbf{1pt}
 \end{enumerate}
 
 %\input{Rectangles}
+
+
 
  
 \vfill \hfill \emph{ \og Bon courage  \fg}

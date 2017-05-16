@@ -1,11 +1,8 @@
+#include <stdio.h>
 void main()
 {
-    char *S = "TotoLoulou";
-    while (*S!='\0')
-    {
-        S++;
-       strcpy(S, strchr(S, 'o'));
-
-    }
-    printf("S = %s", S);
+    char s[100] = "TotoLoulou";
+    while ( strchr(s, 'o') != NULL ) strcpy(strchr(s, 'o'), strchr(s, 'o')+1 );
+    printf("s = %s",s);
 }
+
