@@ -1,0 +1,61 @@
+%\section{Rectangles \hfill 11 pts.  \Clocklogo 50'}
+
+On souhaite programmer un éditeur graphique qui permet de dessiner des rectangles sur un plan muni d'un repère cartésien.
+
+Un rectangle est défini par :
+\begin{itemize}
+\item un \textsf{point} sur le plan qui représente son coin supérieur gauche ;
+\item une \textsf{longueur} ;
+\item une \textsf{largeur} ;
+\item et une \textsf{couleur} qui peut être  blanche, noire ou grise.
+\end{itemize} 
+
+ Un point \textsf{P}  est défini par un couple de réels :
+ \begin{itemize}
+ \item  \textsf{x} appelé l'abscisse de \textsf{P} ;
+\item   \textsf{y} appelé l'ordonnée de \textsf{P}.
+ \end{itemize}
+
+
+\begin{enumerate}
+%\vspace{.25cm}
+\item Définir la structure {\textsf{Rectangle}}.  \hfill  \textbf{3 pts} 
+
+
+%\vspace{.25cm}
+\item \'Ecrire une fonction {\textsf{saisir\_Rectangle}}. \hfill \textbf{2 pts} 
+
+%\vspace{.25cm}
+\item  \'Ecrire une fonction {\textsf{deplacer}} qui prend en entrée un rectangle R et un point P$\prime$ et puis elle déplace le rectangle R vers le point P$\prime$. Par exemple, le rectangle R1 prendra la place du rectangle R2 s'il est  déplacé  au point P'.   \hfill \textbf{1 pt} 
+
+
+%\vspace{.25cm}
+\item  \'Ecrire une fonction {\textsf{zoomer}} qui prend en entrée un rectangle et un coefficient de zoom. La fonction maintient le coin supérieur gauche du rectangle  puis elle agrandie ou elle rapetisse les dimensions du rectangle en fonction du coefficient du zoom.    Par exemple, le rectangle R3 devient égale au rectangle R4 s'il est zoomé  avec un coefficient égale à 2 et inversement R4 devient égale à R3 s'est zoomé  avec un coefficient égale à 0.5. \hfill \textbf{1 pt} 
+
+%\vspace{.25cm}
+\item  \'Ecrire une fonction {\textsf{symétrique}} qui prend en entrée
+ un rectangle R et  retourne le rectangle symétrique 	 R$\prime$  du R par par rapport son coin supérieur gauche. Par exemple, le rectangle R5 est le résultat de l'appel de cette fonction avec le rectangle R4 comme paramètre. \hfill  \textbf{1 pt}   
+
+%\vspace{.25cm}
+%\item  \'Ecrire une fonction {\textsf{centre}} qui prend en entrée un rectangle R et retourne le point qui se trouve à son plein milieu.  \textbf{1 pt} 
+
+
+
+%\vspace{.25cm}
+\item  \'Ecrire une fonction {\textsf{inclut}} qui prend en entrée deux  rectangles R1 et R2   et renvoie 1 si R2 est inclus dans R1, 0 sinon. Par exemple R6 est inclus dans R7 mais R8 ne l'est pas. \hfill \textbf{2 pts} 
+
+
+\begin{center}
+\includegraphics[width = .95\textwidth]{Rectangls.png} 
+\end{center}
+%\vspace{.25cm}
+
+\item \'Ecrire une fonction \textbf{\textsf{main}} qui permet de : \hfill\textbf{1pt}
+\begin{itemize}
+\item déclarer un \textsf{Graph} qui contient un ensemble de rectangles.  
+\item saisir le rectangle R1 de la figure ci-dessus dans le premier rectangle de la variable \textsf{Graph}, 
+\item déplacer le premier rectangle au point P$\prime(19,9)$, 
+\item et enfin,  ajouter  un deuxième  rectangle (dans \textsf{Graph}) symétrique au premier rectangle	 déplacé.
+\end{itemize}  
+
+\end{enumerate}
