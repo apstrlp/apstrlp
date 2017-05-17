@@ -21,16 +21,50 @@ Un rectangle est défini par :
 %\vspace{.25cm}
 \item Définir la structure {\textsf{Rectangle}}.  \hfill  \textbf{3 pts} 
 
+%##########
+\solution
+\begin{center}
+\begin{minipage}{.7\textwidth}
+ %footnotesize
+  \lstinputlisting[firstline=1,lastline=20]{Rectangls.c}
+ \end{minipage}
+ \end{center}
 
 %\vspace{.25cm}
 \item \'Ecrire une fonction {\textsf{saisir\_Rectangle}}. \hfill \textbf{2 pts} 
 
+%##########
+\solution
+\begin{center}
+\begin{minipage}{.7\textwidth}
+ %footnotesize
+  \lstinputlisting[firstline=25,lastline=40]{Rectangls.c}
+ \end{minipage}
+ \end{center}
+ 
 %\vspace{.25cm}
 \item  \'Ecrire une fonction {\textsf{deplacer}} qui prend en entrée un rectangle R et un point P$\prime$ et puis elle déplace le rectangle R vers le point P$\prime$. Par exemple, le rectangle R1 prendra la place du rectangle R2 s'il est  déplacé  au point P'.   \hfill \textbf{1 pt} 
 
+%##########
+\solution
+\begin{center}
+\begin{minipage}{.7\textwidth}
+ %footnotesize
+  \lstinputlisting[firstline=50,lastline=53]{Rectangls.c}
+ \end{minipage}
+ \end{center}
 
 %\vspace{.25cm}
 \item  \'Ecrire une fonction {\textsf{zoomer}} qui prend en entrée un rectangle et un coefficient de zoom. La fonction maintient le coin supérieur gauche du rectangle  puis elle agrandie ou elle rapetisse les dimensions du rectangle en fonction du coefficient du zoom.    Par exemple, le rectangle R3 devient égale au rectangle R4 s'il est zoomé  avec un coefficient égale à 2 et inversement R4 devient égale à R3 s'est zoomé  avec un coefficient égale à 0.5. \hfill \textbf{1 pt} 
+
+%##########
+\solution
+\begin{center}
+\begin{minipage}{.7\textwidth}
+ %footnotesize
+  \lstinputlisting[firstline=55,lastline=59]{Rectangls.c}
+ \end{minipage}
+ \end{center}
 
 %\vspace{.25cm}
 \item  \'Ecrire une fonction {\textsf{symétrique}} qui prend en entrée
@@ -39,11 +73,26 @@ Un rectangle est défini par :
 %\vspace{.25cm}
 %\item  \'Ecrire une fonction {\textsf{centre}} qui prend en entrée un rectangle R et retourne le point qui se trouve à son plein milieu.  \textbf{1 pt} 
 
-
+\item  \'Ecrire une fonction {\textsf{inclut}} qui prend en entrée deux  rectangles R1 et R2   et renvoie 1 si R2 est inclus dans R1, 0 sinon. Par exemple R6 est inclus dans R7 mais R8 ne l'est pas. \hfill \textbf{2 pts} 
+%##########
+\solution
+\begin{center}
+\begin{minipage}{.7\textwidth}
+ %footnotesize
+  \lstinputlisting[firstline=85,lastline=93]{Rectangls.c}
+ \end{minipage}
+ \end{center}
 
 %\vspace{.25cm}
 \item  \'Ecrire une fonction {\textsf{inclut}} qui prend en entrée deux  rectangles R1 et R2   et renvoie 1 si R2 est inclus dans R1, 0 sinon. Par exemple R6 est inclus dans R7 mais R8 ne l'est pas. \hfill \textbf{2 pts} 
-
+%##########
+\solution
+\begin{center}
+\begin{minipage}{.75\textwidth}
+ %footnotesize
+  \lstinputlisting[firstline=95,lastline=104]{Rectangls.c}
+ \end{minipage}
+ \end{center}
 
 \begin{center}
 \includegraphics[width = .95\textwidth]{Rectangls.png} 
@@ -57,6 +106,14 @@ Un rectangle est défini par :
 \item déplacer le premier rectangle au point P$\prime(19,9)$, 
 \item et enfin,  ajouter  un deuxième  rectangle (dans \textsf{Graph}) symétrique au premier rectangle	 déplacé.
 \end{itemize}  
+%##########
+\solution
+\begin{center}
+\begin{minipage}{.7\textwidth}
+ %footnotesize
+  \lstinputlisting[firstline=150,lastline=155]{Rectangls.c}
+ \end{minipage}
+ \end{center}
 
 \end{enumerate}
 

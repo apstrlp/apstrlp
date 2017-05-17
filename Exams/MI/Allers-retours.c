@@ -1,33 +1,36 @@
-void Allers_retours(int tab[3][2], int T[6] , int m, int n)
+void Allers_retours(int tab[10][10], int T[100] , int n, int m)
 {
-    int i, j, debut, pas, fin ;
-	for (i=0 ; i<m ; i++)
+    int i, j=0, init, pas, fin ;
+	for (i=0 ; i<n ; i++)
 	{
 		if (i%2 == 0)
 		{
-			debut = 0 ;
+			init = 0 ;
 			pas = 1 ;
-			fin = n ;
+			fin = m ;
 		}
 		else
 		{
-			debut = n-1;
+			init = m-1;
 			pas = -1;
 			fin = -1;
 		}
-		while (debut != fin)
+		while (init != fin)
 		{
-//j=0;
-		//	T[(i*m)+j] = tab[i][j];
-			printf("  %i", tab[i][debut]);
-			debut += pas;
-			//j++;
+		    T[j++] = tab[i][init];
+			init = init + pas;
 		}
 	}
 }
 void main()
 {
-    int tab[3][2] = {2, 2, 4, 5, 8, 6};
-    int T[6];
-    Allers_retours(tab, T, 3,2);
+    int i;
+    int tab[10][10] = {{2, 2,4}, {4, 5,98}, {8, 6,32},{94, 25,398}};
+    int T[100];
+    Allers_retours(tab, T, 4,3);
+    for (i =0; i<12; i++)
+    {
+        printf("\t %d" , T[i]);
+    }
+
 }
